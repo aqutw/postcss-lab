@@ -3,6 +3,7 @@ var gulp = require('gulp');
 var postcss = require('gulp-postcss');
 var autoprefixer = require('autoprefixer');
 var cssnext = require('cssnext');
+var cssnano = require('cssnano');
 var precss = require('precss');
 
 gulp.task('css', function () {
@@ -10,7 +11,8 @@ gulp.task('css', function () {
   autoprefixer({browsers: ['last 1 version']}),
   // autoprefixer,
   cssnext,
-  precss
+  precss,
+  cssnano
   ];
   return gulp.src('./src/*.css')
     .pipe(postcss(processors))
