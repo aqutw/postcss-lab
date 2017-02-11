@@ -1,0 +1,3 @@
+/* test postcss-import */
+@import url(base.css);
+div{border:3px solid red;}
