@@ -1,0 +1,17 @@
+{
+  "name": "demo2--use-cssnext",
+  "version": "1.0.0",
+  "description": "",
+  "main": "run_me.js",
+  "scripts": {
+    "start": "node run_me.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "cssnext": "^1.8.4",
+    "postcss": "^5.2.12"
+  }
+}

@@ -1,0 +1,13 @@
+/* test color */
+body {
+  background: #9d9c
+}
+
+/* test var */
+:root {
+  --mainColor: red;
+}
+
+a {
+  color: var(--mainColor);
+}
