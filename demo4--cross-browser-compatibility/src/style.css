@@ -1,3 +1,4 @@
+/* autoprefixer */
 @keyframes animationExample {
     from {
         width: 0;
@@ -10,4 +11,40 @@
 .animateThis {
     animation: animationExample 2s;
     display: flex;
+}
+
+/* test postcss-will-change  */
+.thisWillChange {
+    will-change: transform;
+}
+
+/* test postcss-color-rgba-fallback */
+.rgbaFallback {
+    background: rgba(0,0,0,0.5);
+}
+
+/* test postcss-opacity */
+.opacityFallback {
+    opacity: 0.5;
+}
+
+/* test  postcss-pseudoelements */
+html>body div .pseudo-element::before {
+    content: '';
+}
+
+/* test postcss-vmin */ 
+.vmFallback {
+    width: 50vmin;
+}
+
+/* test pixrem */
+.remFallback {
+    height: 10rem;
+    font: 2rem Arial;
+}
+ 
+.remFallback::before {
+    content: '';
+    line-height: 1rem;
 }
