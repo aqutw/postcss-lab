@@ -1,0 +1,24 @@
+{
+  "name": "demo4--cross-browser-compatibility",
+  "version": "1.0.0",
+  "description": "https://webdesign.tutsplus.com/tutorials/using-postcss-for-cross-browser-compatibility--cms-24567",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.7.2",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^6.3.0",
+    "pixrem": "^3.0.2",
+    "postcss": "^5.2.12",
+    "postcss-color-rgba-fallback": "^2.2.0",
+    "postcss-opacity": "^4.0.0",
+    "postcss-pseudoelements": "^3.0.0",
+    "postcss-vmin": "^2.0.0",
+    "postcss-will-change": "^1.1.0"
+  }
+}
