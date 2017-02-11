@@ -9,7 +9,20 @@ gulp.task('css', function () {
   var processors = [
     atImport,
     mqpacker,
-    cssnano
+    /**
+    Strip whitespace and final semicolons
+    Remove comments
+    Optimize font weights
+    Discard duplicate rules
+    Optimize calc() use
+    Minify selectors
+    Minimize longhand properties
+    Merge rules
+    */
+    cssnano({
+      // http://cssnano.co/options
+      minifyFontValues: false, calc: {precision: 2}
+    })
   ];
   return gulp.src('./src/*.css')
     .pipe(postcss(processors)) //<-----------------postcss HERE.
