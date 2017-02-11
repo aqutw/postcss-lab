@@ -3,10 +3,12 @@ module.exports = function(grunt) {
  
     postcss: {
       options: {
- 
+        processors: [
+        ]
       },
       dist: {
-         
+        src: 'src/style.css',
+        dest: 'dest/style.css'
       }
     }
   
