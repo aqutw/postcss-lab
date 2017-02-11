@@ -1,0 +1,11 @@
+.column {
+    width: 50%;
+    float: left;
+}
+ 
+@media (max-width: 50rem) {
+    .column {
+        width: 100%;
+        float: none;
+    }
+}

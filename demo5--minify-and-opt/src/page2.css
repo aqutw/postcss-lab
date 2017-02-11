@@ -1,0 +1,3 @@
+/* test postcss-import AND css-mqpacker */
+@import url(LAYOUT.css);
+@import url(VISUALS.css);
