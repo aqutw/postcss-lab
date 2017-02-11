@@ -1,5 +1,3 @@
-// https://github.com/postcss/postcss-color-hex-alpha
-
 // dependencies
 var fs = require("fs")
 var postcss = require("postcss")
