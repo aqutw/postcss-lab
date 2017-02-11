@@ -1,0 +1,18 @@
+/* Input */
+size: $height $width {
+  height: $height;
+  width: $width;
+}
+
+size: $size {
+  height: $size;
+  width: $size;
+}
+
+.rectangle {
+  size: 50px 100px;
+}
+
+.square {
+  size: 50px;
+}
