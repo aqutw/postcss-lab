@@ -8,7 +8,7 @@
   background: color(red alpha(-10%));
 }
 
-/* Testing precss */
+/* Testing precss https://github.com/jonathantneal/precss https://jonathantneal.github.io/precss/ */
 .precss {
   @if 3 < 5 {
     background: green;
