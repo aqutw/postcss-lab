@@ -1,0 +1,16 @@
+{
+  "name": "demo2--use-postcss-color-hex-alpha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "run_me.js",
+  "scripts": {
+    "start": "node run_me.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "postcss": "^5.2.12",
+    "postcss-color-hex-alpha": "^2.0.0"
+  }
+}
